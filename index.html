@@ -1,8 +1,171 @@
 <!DOCTYPE html>
 <html>
-<body>
-    <h1>Hello World</h1>
-    <p>I'm hosting</p>
-</body>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emlise's blog</title>
+    <link href="/style_alt.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  <flower> </flower>
+  <aside></aside>
+  
+    <style>
+    .scroll-left {
+      top: 92.5vh;
+     height: 15px;	
+     overflow: hidden;
+     position: relative;
+     background: rgb(20,20,20);
+     color: rgb( 50,50,50);
+      z-index: -800;
+    }
+    .scroll-left p {
+     position: absolute;
+     width: 100vw;
+     height: 100%;
+     margin: 0;
+     line-height: 14px;
+     text-align: center;
+     /* Starting position */
+     -moz-transform:translateX(100%);
+     -webkit-transform:translateX(100%);	
+     transform:translateX(100%);
+     /* Apply animation to this element */	
+     -moz-animation: scroll-left 95s linear infinite;
+     -webkit-animation: scroll-left 95s linear infinite;
+     animation: scroll-left 95s linear infinite;
+    }
+    /* Move it (define the animation) */
+    @-moz-keyframes scroll-left {
+     0%   { -moz-transform: translateX(100%); }
+     100% { -moz-transform: translateX(-100%); }
+    }
+    @-webkit-keyframes scroll-left {
+     0%   { -webkit-transform: translateX(100%); }
+     100% { -webkit-transform: translateX(-100%); }
+    }
+    @keyframes scroll-left {
+     0%   { 
+     -moz-transform: translateX( 0%); /* Browser bug fix */
+     -webkit-transform: translateX( 0%); /* Browser bug fix */
+     transform: translateX( 0%); 		
+     }
+     100% { 
+     -moz-transform: translateX(-114.7%); /* Browser bug fix */
+     -webkit-transform: translateX(-114.7%); /* Browser bug fix */
+     transform: translateX(-114.7%); 
+     }
+    }
+    </style>
+    
+    <div class="scroll-left">
+    <p>__I'll leave you in my heart
+__Six or seven later
+__I'm still very very happy
+__I'm still writing songs I can't play out
+__And there's Zulu in my body
+__Have I eaten all the very good dates now?
+__Is our night worth contemplating?
+__I'll leave you in my heart
+__Six or seven later
+__I'm still very very happy
+__I'm still writing songs I can't play out
+__And there's Zulu in my body
+__Have I eaten all the very good dates now?
+__Is our night worth contemplating?
+__I'll leave you in my heart
+__Six or seven later
+__I'm still very very happy
+__I'm still writing songs I can't play out
+__And there's Zulu in my body
+__Have I eaten all the very good dates now?
+__Is our night worth contemplating?</p>
+    </div>
+    
+    <!--
+    <div style="max-height:80vh;font-family:Cursive;font-size:14pt;color:rgb(50,50,50);">
+    <marquee style="position:relative;left:122px;top:0px;height:80vh;" scrollamount="3" direction="down">0</marquee>
+    <marquee style="position:fixed;left:1222px;top:0px;height:80vh;" scrollamount="0.5" direction="down">O</marquee>
+    <marquee style="position:fixed;left:1192px;top:0px;height:80vh;" scrollamount="1"   direction="down">0</marquee>
+    <marquee style="position:fixed;left:1322px;top:0px;height:80vh;" scrollamount="2.5" direction="down">O</marquee>
+    <marquee style="position:fixed;left:1622px;top:0px;height:80vh;" scrollamount="2"   direction="down">o</marquee>
+    <marquee style="position:fixed;left:1822px;top:0px;height:80vh;" scrollamount="1"   direction="down">O</marquee>
+    <marquee style="position:fixed;left:1952px;top:0px;height:80vh;" scrollamount="2"   direction="down">O</marquee>
+    <marquee style="position:fixed;left:912px;top:0px;height:80vh;" scrollamount="1"    direction="down">o</marquee>
+    
+    </div>
+    -->
+    
+    <div id="header">
+      <h1>Emlise's webpage</h1>
+    </div>
+    
+    <div id="sub_text">
+    <subtext><h4>Blog and archive of Emlise's ( formely faxdoc ) art/media.</h4></subtext>
+    </div>
+    
+    <main>
+         
+      <flex>
+        <div class="flex">
+          
+          <h2># New content </h2>
+          <p>Hi, how's it going?</p>
+          <p>I'm Emlise, and I draw and make video-games sometimes. I'm Mostly known for Rusted Moss and twitter pixelart.</p>
+          <p>I'll try to post art/development related things here!</p>
+          
+          <h3># Links </h3>
+          <p> if you want to see what I'm working on right now: </p>
+          <ul>
+            <li> <a href="https://emlise.neocities.org/blog/blog"> random notes/thougths/blog stuff</a> </li>
+            <li> <a href="https://emlise.neocities.org/previews/previews"> Previews of stuff I'm working on right now </a> </li>
+            <li> <a href="https://emlise.neocities.org/guestbook/guestbook"> Guestbook </a> </li>
+          </ul>
+          
+        </div>
+        
+        <div class="flex">
+          <h2># Archive </h2>
+          <p class="bio">
+            Here's a backup of my art from 2015-2023.
+          </p>
+          <ul>
+          <li><a href="https://emlise.neocities.org/old_art_deviant_dump/test_subpage_old"> 2014-2015 backup</a> <span style="color: #656464">(Bad art from Deviantart)</span></li>
+          <li><a href="https://emlise.neocities.org/old_art_deviant/test_subpage_2015_16">  2015-2016 backup</a> <span style="color: #656464">(Mostly 2D building art) </span></li>
+          <li><a href="https://emlise.neocities.org/Twitter/twitter_navigator">             2018-2023 backup</a> <span style="color: #656464">(twitter/insta)          </span></li>
+          <li><a href="https://emlise.neocities.org/gamedev/gamedev_archive">               2018-2023 gamedev</a> <span style="color: #656464">(Small clips)          </span></li>
+          </ul>
+          <p class="bio">
+            Here's a link to places hosting game's I've made.
+          </p>
+          <ul>
+          <li><a href="https://faxdoc.itch.io">My itch page</a> </li>
+          <li><a href="https://store.steampowered.com/app/1772830/Rusted_Moss/">Rusted Moss</a> <span style="color: #656464">(steam)</span></li>
+          <li><a href="https://store.steampowered.com/app/1462420/TWWWR/">Twwwr</a> <span style="color: #656464">(steam)</span></li>
+          <li><a href="https://gm48.net/user/1497/faxdoc">gm48</a></li>
+          </ul>
+          <p class="bio">
+            Here's a link to other places I used put my stuff.
+          </p>
+          <ul>
+          <li><a href="https://www.deviantart.com/faxdoc">Deviantart</a> </li>
+          <li><a href="https://twitter.com/Faxdocc">Twitter</a></li>
+          <li><a href="https://faxdoc.itch.io">itch</a></li>
+          <li><a href="https://www.instagram.com/emlise_art">instagram</a></li>
+          </ul>
+          
+          
+          
+        </div>
+        
+      </flex>
+    </main>
+    <current_reading>
+    <p>Reading:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: #c83c3c">Ghosts of my life</span> &nbsp;&nbsp;&nbsp;   by Mark fisher. </p>
+    <p>Playing:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: #c83c3c">Rusted Moss arena</span> &nbsp;        by Emlise+Happysquared+Sunnydaze+Hokori </p>
+    <p>Listening to: <span style="color: #c83c3c">Fantastic damage</span> &nbsp;&nbsp;                                   by El-p</p>
+    </current_reading>
+    
+  </body>
 </html>
