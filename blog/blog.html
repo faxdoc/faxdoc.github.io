@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal blog</title>
+    <link href="/style_alt.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  <bg_alt></bg_alt>
+  <right_aside> </right_aside>
+  <blog>
+    <p>Link back to main page: <a href="https://emlise.neocities.org">Home</a></p>
+    <h1>Rusted Moss retrospective draft notes</h1>
+	<h2>2/16/2024</h2>
+    
+	<p>Sorry for not updating the site much, I've been busy with other stuff, but will try to find time for it more frequently.</p>
+
+	<h3>Rusted Moss retrospective thought dump</h3>   
+	<p></p>
+	<p>I've wanted to write a little about RM and things I would have done differently in retrospect. There is too much to really go over, so I'll just write some more basic notes for now and maybe edit later.</p>
+	<p></p>
+	<p>In terms of production, proper pipe-lines and development tools came in pretty late. This substantially increased dev time, as it could take a lot of time to test changes. I thought dev tools would take too long to implement compared to time saved, but was sorely mistaken.</p>
+	<p>As it turns out simple things like being able to teleport the player to the cursor and quadruple the gamespeed made testing way faster, and only took a few minutes to implement ( I made all of twwwr without either of these ). Another tool that came in handy was the ability to teleport the player to any part of the map, these 3 combined made it possible to access more or less every place in the game in a few seconds.</p>
+    
+	<p>Also worth noting this was only added due to requests from the publisher to help QA, so without that suggestion it's likely RM would have been a way worse game due to slower development.</p>
+	<p> --------- -------- </p>
+	<h3>Just to be helpful, here's a list of some dev tools we added(roughly ordered in usefulness compared to implementation time)</h3>
+    
+	<li>Gmlive: lets you update rooms/sprites/code etc. without having to recompile the game, meaning checking changes takes 0.5 seconds instead of sometimes 30+, genuinely makes game development 2-10x faster. Implementation: Easy. Value: Very high </li>
+	<li>Gmedit+builder: A separate code editor/development tool for gamemaker, runs way faster and is less buggy than normal gamemaker. With the builder extension you can even compile from gmedit. I honestly prefer using gmedit exclusively when I can get away with it. Implementation: Easy. Value: High </li>
+	<li>Teleport to mouse: Pressing R instantly teleports the player's position to where the mouse is. Implementation: Easy. Value: High </li>
+	<li>Toggle-able game speed: pressing a button lets us cycle game speed ( 1x, 2x, 4x ). Really helpful for skipping cutscenes etc. Implementation: Easy. Value: High </li>
+	<li>Map teleport: bring up a map of every room and teleport there. Implementation: medium. Value: High </li>
+	<li>Instakill everything: Makes all enemies have 0 hp, useful for checking i.e. boss deaths. Implementation: easy. Value: medium </li>
+	</blog>
+  </body>
+</html>
+
+
+
+
+
+
