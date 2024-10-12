@@ -265,6 +265,14 @@ html {
         line-height: 1.2;
         color: rgb( 50, 50, 50 );
       }
+      main_alt {
+        width: 1600px;
+        position: absolute;
+        left:226px;
+        top:240px;
+        line-height: 1.2;
+        color: rgb( 50, 50, 50 );
+      }
       current_reading {
         width: 1190px;
         position: absolute;
@@ -301,7 +309,9 @@ html {
       flex > .flex {
         width: 50%;
       }
-      
+      flex > .flex_alt {
+        width: 33%;
+      }
       h1 {
         font-family: 'MS pGothic', 'Quicksand', sans-serif;
         font-size: 80px;
